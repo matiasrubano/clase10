@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="js/wow.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<script>
+    new WOW().init();
+</script>
+
+<body>
+    <header class="header">
+        <img src="./imagenes/logo.png" class="logo" alt="logo">
+        <a href="./quien.html" class="menu">Quien soy</a>
+        <a href="./trabajo.html" class="menu">Mis trabajos</a>
+        <a href="./contacto.html" class="menu">Contacto</a>
+    </header>
+    <main class="container">
+        <section class="foto">
+            <h1>Algunos Trabajos</h1>
+            <form>
+                <h1>Comunicate con nosotros</h1>
+                <fieldset>
+                    <legend>Datos de contacto</legend>
+                    <input type="text" name="nombre" placeholder="Nombre">
+                    <input type="text" name="apellido" placeholder="Apellido">
+                    <br> <br>
+                    <input type="email" name="email" placeholder="Escribe tu email">
+                    <br> <br>
+                    <p>Soy una:</p>
+                    <div>
+                        <input type="radio" name="sexo" value="Empresa"> Empresa
+                    </div>
+                    <div>
+                        <input type="radio" name="sexo" value="Persona"> Persona
+                    </div>
+
+                    <br>
+                    <select>
+                        <option selected>Cuantas secciones necesita tu pagina</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                    <br> <br>
+                    <textarea name="mensaje" cols="50" rows="10" placeholder="escribe tu mensaje"></textarea>
+                    <br>
+                    <input type="submit">
+                    <input type="reset">
+                </fieldset>
+
+            </form>
+        </section>
+        <footer class="footer">
+            <h2>Hecho con ♥ por Matias Rubano</h2>
+        </footer>
+    </main>
+</body>
+
+</html>
